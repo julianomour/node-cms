@@ -1,0 +1,29 @@
+{
+  "name": "node-cms",
+  "description": "CMS com NodeJs + Express + MongoDb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "mongoose": "~5.0.12",
+    "express": "~4.16.3",
+    "body-parser": "~1.18.2",
+    "request": "~2.85.0",
+    "nodemon-browsersync-webpack-plugin": "~1.0.1"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "restfull",
+    "expressjs"
+  ],
+  "author": "Juliano Moura",
+  "license": "MIT"
+}
